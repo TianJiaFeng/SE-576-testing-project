@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2018-03-16T01:41:06" hostname="LAPTOP-0Q7G9NBT" time="0.963">
+  <properties/>
+  <testcase name="checkMoreKing" classname="AppTest" time="0.097"/>
+  <testcase name="checkMorePawn" classname="AppTest" time="0.028"/>
+  <testcase name="checkMoreRook" classname="AppTest" time="0.025"/>
+  <testcase name="checkCastling" classname="AppTest" time="0.04"/>
+  <testcase name="checRandomBlackPawn" classname="AppTest" time="0.167"/>
+  <testcase name="checkQueenBishop" classname="AppTest" time="0.026"/>
+  <testcase name="checRandomQueen" classname="AppTest" time="0.066"/>
+  <testcase name="checkInputNull" classname="AppTest" time="0.098"/>
+  <testcase name="checkMoreQueen" classname="AppTest" time="0.017"/>
+  <testcase name="checkCheck" classname="AppTest" time="0.016"/>
+  <testcase name="checkQueen" classname="AppTest" time="0.022"/>
+  <testcase name="checRandomBishop" classname="AppTest" time="0.044"/>
+  <testcase name="checkGeneralPawn" classname="AppTest" time="0.012"/>
+  <testcase name="checkQueenRook" classname="AppTest" time="0.011"/>
+  <testcase name="checRandomKnight" classname="AppTest" time="0.032"/>
+  <testcase name="checRandomWhitePawn" classname="AppTest" time="0.032"/>
+  <testcase name="checkBishop" classname="AppTest" time="0.021"/>
+  <testcase name="checkKing" classname="AppTest" time="0.01"/>
+  <testcase name="checkPawn" classname="AppTest" time="0.013"/>
+  <testcase name="checkRead" classname="AppTest" time="0.012"/>
+  <testcase name="checkRook" classname="AppTest" time="0.018"/>
+  <testcase name="checkKnight" classname="AppTest" time="0.017"/>
+  <testcase name="checkMoreBishop" classname="AppTest" time="0.013"/>
+  <testcase name="checkMoreKnight" classname="AppTest" time="0.02"/>
+  <testcase name="checRandomKing" classname="AppTest" time="0.042"/>
+  <testcase name="checRandomRook" classname="AppTest" time="0.037"/>
+  <testcase name="checkIllegal" classname="AppTest" time="0.016"/>
+  <system-out><![CDATA[illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+illegal Input
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

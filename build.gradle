@@ -1,0 +1,35 @@
+plugins {
+  id 'com.gradle.build-scan' version '1.12.1'
+}
+
+buildScan {
+  licenseAgreementUrl = 'https://gradle.com/terms-of-service'
+  licenseAgree = 'yes'
+}
+
+apply plugin: 'java-library'
+apply plugin: 'jacoco'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    api 'org.apache.commons:commons-math3:3.6.1'
+
+    implementation 'com.google.guava:guava:21.0'
+
+    testImplementation 'junit:junit:4.12'
+    
+    compile 'com.pholser:junit-quickcheck-core:0.7'
+    compile 'com.pholser:junit-quickcheck-generators:0.7'
+    compile 'com.pholser:junit-quickcheck-guava:0.7'
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        csv.enabled false
+        html.destination "${buildDir}/reports/coverage"
+    }
+}

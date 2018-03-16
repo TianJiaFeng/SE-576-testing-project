@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Read.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Chess</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">Read.java</span></div><h1>Read.java</h1><pre class="source lang-java linenums">import java.io.File;
+import java.io.InputStreamReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.BufferedReader;
+
+<span class="fc" id="L7">public class Read {</span>
+	public String[] readFile(String file) throws IOException {
+<span class="fc" id="L9">		File filename = new File(file);</span>
+<span class="fc" id="L10">		InputStreamReader reader = new InputStreamReader(new FileInputStream(filename));</span>
+<span class="fc" id="L11">		BufferedReader br = new BufferedReader(reader);</span>
+<span class="fc" id="L12">		String [] s1 = new String [3];</span>
+<span class="fc" id="L13">		int pos = 0;</span>
+<span class="fc bfc" id="L14" title="All 2 branches covered.">		while(pos&lt;3) {</span>
+<span class="fc" id="L15">			s1[pos] = br.readLine();</span>
+<span class="fc bfc" id="L16" title="All 2 branches covered.">			if(s1[pos].charAt(s1[pos].length()-1) != ':') {</span>
+<span class="fc" id="L17">				s1[pos] = s1[pos].split(&quot;:&quot;)[1];</span>
+			} else {
+<span class="fc" id="L19">				s1[pos] = &quot;&quot;;</span>
+			}
+<span class="fc" id="L21">			pos++;</span>
+		}
+<span class="fc" id="L23">		br.close();</span>
+<span class="fc" id="L24">        return s1;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>
